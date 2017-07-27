@@ -1,0 +1,76 @@
+#custom-search-input{
+    padding: 3px;
+    border: solid 1px #E4E4E4;
+    border-radius: 6px;
+    background-color: #fff;
+}
+
+#custom-search-input input{
+    border: 0;
+    box-shadow: none;
+}
+
+#custom-search-input button{
+    margin: 2px 0 0 0;
+    background: none;
+    box-shadow: none;
+    border: 0;
+    color: #666666;
+    padding: 0 8px 0 10px;
+    border-left: solid 1px #ccc;
+}
+
+#custom-search-input button:hover{
+    border: 0;
+    box-shadow: none;
+    border-left: solid 1px #ccc;
+}
+
+#custom-search-input .glyphicon-search{
+    font-size: 23px;
+}
+
+#main{
+    display: none;
+    margin: 0 15px;
+    border: 1px solid black;
+    border-radius: 6px;
+    padding: 10px 10px 30px 10px;
+}
+
+.clipboard{
+    float:right;
+    color: #555;
+    background: #fff;
+}
+
+.container{
+    background: black;
+    opacity: 0.8;
+    color: white;
+    position: relative;
+    min-height: 100vh;
+}
+
+body{
+    background-image: url("/images/background.jpg");
+    background-size: cover;
+    padding: 2% 0;
+    font-family: "Century Gothic", CenturyGothic, Geneva, AppleGothic, sans-serif;
+    background-repeat: no-repeat;
+}
+
+h1{
+    text-align: center;
+    font-size: 4em;
+}
+
+h2 span{
+    font-size: 0.5em;
+}
+
+#footer{
+    position: absolute;
+    bottom: 2px;
+    left: 10px;
+}
